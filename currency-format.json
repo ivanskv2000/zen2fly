@@ -310,7 +310,7 @@
     }
   },
   "BYR": {
-    "name": "Belarussian Ruble",
+    "name": "Belarussian Ruble (before July 1st 2016)",
     "fractionSize": 0,
     "symbol": {
       "grapheme": "p.",
@@ -1586,7 +1586,7 @@
     }
   },
   "RUR": {
-    "name": "Russian Ruble",
+    "name": "Russian Ruble (before January 1st 1998)",
     "fractionSize": 2,
     "symbol": {
       "grapheme": "₽",
@@ -1842,7 +1842,7 @@
     "uniqSymbol": null
   },
   "TRL": {
-    "name": "Turkish Lira",
+    "name": "Turkish Lira (before January 1st 2005)",
     "fractionSize": 2,
     "symbol": {
       "grapheme": "₤",
@@ -1998,7 +1998,7 @@
     }
   },
   "VEF": {
-    "name": "Bolivar",
+    "name": "Bolivar (before August 1st 2018)",
     "fractionSize": 2,
     "symbol": {
       "grapheme": "Bs",
@@ -2180,7 +2180,7 @@
     "uniqSymbol": null
   },
   "ZWD": {
-    "name": "Zimbabwe Dollar",
+    "name": "Zimbabwe Dollar (old)",
     "fractionSize": 2,
     "symbol": {
       "grapheme": "Z$",
