@@ -1,18 +1,20 @@
-[tool.poetry]
+[project]
 name = "zen2fly"
 version = "0.1.0"
 description = "A tool for exporting Zenmoney accounts and transactions into Firefly III."
-authors = ["Ivan Skvortsov <ivanskv2000@gmail.com>"]
-license = "GPL-3.0-or-later"
+authors = [
+    {name = "Ivan Skvortsov", email = "ivanskv2000@gmail.com"}
+]
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.10"
-numpy = "^1.26.4"
-requests = "^2.31.0"
-tqdm = "^4.66.2"
-zenmoney = "^0.9"
-python-dotenv = "^1.0.1"
+license = "GPL-3.0-or-later"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26.4",
+    "requests>=2.31.0",
+    "tqdm>=4.66.2",
+    "zenmoney>=0.9",
+    "python-dotenv>=1.0.1",
+]
 
 [tool.poetry.group.dev.dependencies]
 pandas = "^2.2.1"
@@ -20,5 +22,5 @@ scikit-learn = "^1.4.1.post1"
 matplotlib = "^3.8.3"
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
